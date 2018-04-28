@@ -1,0 +1,324 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+.button{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 36px;
+	border: none;
+	margin: 3px;
+	border-radius: 14px;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 8px 16px;
+	outline: none;
+	transition: all .5s;
+}
+
+.button.primary{
+	background-color: #2D60FA;
+	color: #EEEEEE;
+}
+
+.button.primary:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #2D60FA;
+}
+
+.button.seconary{
+	background-color: #ACAAAA;
+	color: #EEEEEE;
+}
+
+.button.seconary:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #ACAAAA;
+}
+
+.button.success{
+	background-color: #04CC40;
+	color: #EEEEEE;
+}
+
+.button.success:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #04CC40;
+}
+
+.button.danger{
+	background-color: #DF0202;
+	color: #EEEEEE;
+}
+
+.button.danger:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #DF0202;
+}
+
+.button.warning{
+	background-color: #EEFF00;
+	color: #333333;
+}
+
+.button.warning:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #EEFF00;
+}
+
+.button.info{
+	background-color: #02E0A9;
+	color: #EEEEEE;
+}
+
+.button.info:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #02E0A9;
+}
+
+.button.light{
+	background-color: #E26EE2;
+	color: #EEEEEE;
+}
+
+.button.light:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #E26EE2;
+}
+
+.button.dark{
+	background-color: #720172;
+	color: #EEEEEE;
+}
+
+.button.dark:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #720172;
+}
+
+.button.link{
+	background-color: #3BCAE4;
+	color: #EEEEEE;
+}
+
+.button.link:hover{
+	background-color: #EEEEEE;
+	color: #333333;
+	box-shadow: inset 0 0 0 2px #3BCAE4;
+}
+
+.button.outline_button{
+	background-color: #EEEEEE;
+	color: #333333;
+}
+
+.button.outline_button.primary{
+	box-shadow: inset 0 0 0 2px #2D60FA;
+}
+
+.button.outline_button.primary:hover{
+	background-color: #2D60FA;
+	color: #EEEEEE;
+}
+
+.button.outline_button.seconary{
+	box-shadow: inset 0 0 0 2px #ACAAAA;
+}
+
+.button.outline_button.seconary:hover{
+	background-color: #ACAAAA;
+	color: #EEEEEE;
+}
+
+.button.outline_button.success{
+	box-shadow: inset 0 0 0 2px #04CC40;
+}
+
+.button.outline_button.success:hover{
+	background-color: #04CC40;
+	color: #EEEEEE;
+}
+
+.button.outline_button.danger{
+	box-shadow: inset 0 0 0 2px #DF0202;
+}
+
+.button.outline_button.danger:hover{
+	background-color: #DF0202;
+	color: #EEEEEE;
+}
+
+.button.outline_button.warning{
+	box-shadow: inset 0 0 0 2px #EEFF00;
+}
+
+.button.outline_button.warning:hover{
+	background-color: #EEFF00;
+	color: #333333;
+}
+
+.button.outline_button.info{
+	box-shadow: inset 0 0 0 2px #02E0A9;
+}
+
+.button.outline_button.info:hover{
+	background-color: #02E0A9;
+	color: #EEEEEE;
+}
+
+.button.outline_button.light{
+	box-shadow: inset 0 0 0 2px #E26EE2;
+}
+
+.button.outline_button.light:hover{
+	background-color: #E26EE2;
+	color: #EEEEEE;
+}
+
+.button.outline_button.dark{
+	box-shadow: inset 0 0 0 2px #720172;
+}
+
+.button.outline_button.dark:hover{
+	background-color: #720172;
+	color: #EEEEEE;
+}
+
+.button.outline_button.link{
+	box-shadow: inset 0 0 0 2px #3BCAE4;
+}
+
+.button.outline_button.link:hover{
+	background-color: #3BCAE4;
+	color: #EEEEEE;
+}
+
+.button.outline_dark_button{
+	background-color: #333333;
+	color: #EEEEEE;
+}
+
+.button.outline_dark_button.primary{
+	box-shadow: inset 0 0 0 2px #2D60FA;
+}
+
+.button.outline_dark_button.seconary{
+	box-shadow: inset 0 0 0 2px #ACAAAA;
+}
+
+.button.outline_dark_button.success{
+	box-shadow: inset 0 0 0 2px #04CC40;
+}
+
+.button.outline_dark_button.danger{
+	box-shadow: inset 0 0 0 2px #DF0202;
+}
+
+.button.outline_dark_button.warning{
+	box-shadow: inset 0 0 0 2px #EEFF00;
+}
+
+.button.outline_dark_button.info{
+	box-shadow: inset 0 0 0 2px #02E0A9;
+}
+
+.button.outline_dark_button.light{
+	box-shadow: inset 0 0 0 2px #E26EE2;
+}
+
+.button.outline_dark_button.dark{
+	box-shadow: inset 0 0 0 2px #720172;
+}
+
+.button.outline_dark_button.link{
+	box-shadow: inset 0 0 0 2px #3BCAE4;
+}
+
+.button.gradient_button{
+	background-color: #EEEEEE;
+	color: #333333;
+}
+
+.button.gradient_button.primary{
+	background-image: linear-gradient(to bottom right, #2D60FA, #EEEEEE);
+}
+.button.gradient_button.seconary{
+	background-image: linear-gradient(to bottom right, #ACAAAA, #EEEEEE);
+}
+
+.button.gradient_button.success{
+	background-image: linear-gradient(to bottom right, #04CC40, #EEEEEE);
+}
+
+.button.gradient_button.danger{
+	background-image: linear-gradient(to bottom right, #DF0202, #EEEEEE);
+}
+
+.button.gradient_button.warning{
+	background-image: linear-gradient(to bottom right, #EEFF00, #EEEEEE);
+}
+
+.button.gradient_button.info{
+	background-image: linear-gradient(to bottom right, #02E0A9, #EEEEEE);
+}
+
+.button.gradient_button.light{
+	background-image: linear-gradient(to bottom right, #E26EE2, #EEEEEE);
+}
+
+.button.gradient_button.dark{
+	background-image: linear-gradient(to bottom right, #720172, #EEEEEE);
+}
+
+.button.gradient_button.link{
+	background-image: linear-gradient(to bottom right, #3BCAE4, #EEEEEE);
+}
+
+.button.button.gradient_button_2{
+	background-color: #EEEEEE;
+	color: #EEEEEE;
+}
+
+.button.gradient_button_2.primary{
+	background-image: linear-gradient(to bottom right, #2D60FA, #02E0A9);
+}
+.button.gradient_button_2.seconary{
+	background-image: linear-gradient(to bottom right, #ACAAAA, #333333);
+}
+.button.gradient_button_2.success{
+	background-image: linear-gradient(to bottom right, #04CC40, #EEFF00);
+}
+
+.button.gradient_button_2.danger{
+	background-image: linear-gradient(to bottom right, #DF0202, #2D60FA);
+}
+
+.button.gradient_button_2.warning{
+	background-image: linear-gradient(to bottom right, #EEFF00, #E26EE2);
+}
+
+.button.gradient_button_2.info{
+	background-image: linear-gradient(to bottom right, #02E0A9, #2D60FA);
+}
+
+.button.gradient_button_2.light{
+	background-image: linear-gradient(to bottom right, #E26EE2, #02E0A9);
+}
+
+.button.gradient_button_2.dark{
+	background-image: linear-gradient(to bottom right, #720172, #E26EE2);
+}
+
+.button.gradient_button_2.link{
+	background-image: linear-gradient(to bottom right, #3BCAE4, #04CC40);
+}
