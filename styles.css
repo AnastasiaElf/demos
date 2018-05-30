@@ -89,20 +89,20 @@ html, body{
 }
 
 .button.simple_button.warning{
-	background-color: #EEFF00;
-	color: #333333;
+	background-color: #ffa600;
+	color: #EEEEEE;
 }
 
 .button.simple_button.warning:hover{
 	background-color: #EEEEEE;
 	color: #333333;
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.simple_button.warning:active{
 	background-color: #EEEEEE;
 	color: #333333;
-	box-shadow: inset 0 0 0 3px #EEFF00;
+	box-shadow: inset 0 0 0 3px #ffa600;
 }
 
 .button.simple_button.info{
@@ -250,11 +250,11 @@ html, body{
 }
 
 .button.outline_button.warning{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.outline_button.warning:hover{
-	background-color: #EEFF00;
+	background-color: #ffa600;
 	color: #333333;
 }
 
@@ -367,11 +367,11 @@ html, body{
 }
 
 .button.outline_dark_button.warning{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.outline_dark_button.warning:hover{
-	background-color: #EEFF00;
+	background-color: #ffa600;
 	color: #333333;
 }
 
@@ -450,11 +450,11 @@ html, body{
 }
 
 .button.outline_dark_button_2.warning{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.outline_dark_button_2.warning:active{
-	box-shadow: inset 0 0 0 3px #EEFF00;
+	box-shadow: inset 0 0 0 3px #ffa600;
 }
 
 .button.outline_dark_button_2.info{
@@ -543,15 +543,15 @@ html, body{
 }
 
 .button.gradient_button.warning{
-	background-image: linear-gradient(to bottom right, #EEFF00, #EEEEEE);
+	background-image: linear-gradient(to bottom right, #ffa600, #EEEEEE);
 }
 
 .button.gradient_button.warning:hover{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.gradient_button.warning:active{
-	box-shadow: inset 0 0 0 3px #EEFF00;
+	box-shadow: inset 0 0 0 3px #ffa600;
 }
 
 .button.gradient_button.info{
@@ -632,7 +632,7 @@ html, body{
 }
 
 .button.gradient_button_2.success{
-	background-image: linear-gradient(to bottom right, #04CC40, #EEFF00);
+	background-image: linear-gradient(to bottom right, #04CC40, #ffa600);
 }
 
 .button.gradient_button_2.success:hover{
@@ -640,7 +640,7 @@ html, body{
 }
 
 .button.gradient_button_2.success:active{
-	background-image: linear-gradient(to bottom right, #EEFF00, #04CC40);
+	background-image: linear-gradient(to bottom right, #ffa600, #04CC40);
 }
 
 .button.gradient_button_2.danger{
@@ -656,15 +656,15 @@ html, body{
 }
 
 .button.gradient_button_2.warning{
-	background-image: linear-gradient(to bottom right, #EEFF00, #E26EE2);
+	background-image: linear-gradient(to bottom right, #ffa600, #E26EE2);
 }
 
 .button.gradient_button_2.warning:hover{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.gradient_button_2.warning:active{
-	background-image: linear-gradient(to bottom right, #E26EE2, #EEFF00);
+	background-image: linear-gradient(to bottom right, #E26EE2, #ffa600);
 }
 
 .button.gradient_button_2.info{
@@ -772,16 +772,16 @@ html, body{
 }
 
 .button.outline_button_2.warning{
-	color: #EEFF00;
+	color: #ffa600;
 }
 
 .button.outline_button_2.warning:hover{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.outline_button_2.warning:active{
-	background-color: #EEFF00;
-	color: #333333;
+	background-color: #ffa600;
+	color: #EEEEEE;
 }
 
 .button.outline_button_2.info{
@@ -894,15 +894,15 @@ html, body{
 }
 
 .button.dark_button.warning{
-	color: #EEFF00;
+	color: #ffa600;
 }
 
 .button.dark_button.warning:hover{
-	box-shadow: inset 0 0 0 2px #EEFF00;
+	box-shadow: inset 0 0 0 2px #ffa600;
 }
 
 .button.dark_button.warning:active{
-	box-shadow: inset 0 0 0 3px #EEFF00;
+	box-shadow: inset 0 0 0 3px #ffa600;
 }
 
 .button.dark_button.info{
